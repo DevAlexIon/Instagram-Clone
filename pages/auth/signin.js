@@ -7,7 +7,7 @@ function signIn({ providers }) {
       <Header />
       <div className="flex flex-col items-center justify-center min-h-screen py-2 -mt-26 px-14 text-center">
         <img className="w-80" src="https://links.papareact.com/ocw" alt="" />
-        <p className="font-xs italic">Nu este REAL, doar un D3M0 </p>
+        <p className="font-xs italic">Greetings! This is just a demo. </p>
         <div className="mt-40">
           {Object.values(providers).map((provider) => (
             <div key={provider.name}>
